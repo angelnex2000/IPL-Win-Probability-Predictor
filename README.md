@@ -16,7 +16,7 @@ Historical Data -> Feature Engineering -> Random Forest -> Training -> FastAPI -
 ## Setup
 
 ```powershell
-cd "C:\Users\Angel\Documents\Codex\2026-05-31\files-mentioned-by-the-user-deliveries\outputs\ipl_win_probability"
+
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
