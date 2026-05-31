@@ -68,3 +68,19 @@ streamlit run streamlit_app.py
 ```
 
 The UI can call FastAPI, and also falls back to the local model if the API is not running.
+
+## Run With Docker
+
+Build the image:
+
+```powershell
+docker build -t ipl-win-probability .
+```
+
+Run the Streamlit app:
+
+```powershell
+docker run --rm -p 8501:8501 ipl-win-probability
+```
+
+Open `http://127.0.0.1:8501`.

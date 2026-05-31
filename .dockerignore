@@ -1,0 +1,9 @@
+.git/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.log
+.env
+.pytest_cache/
+.ipynb_checkpoints/
